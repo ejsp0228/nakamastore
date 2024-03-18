@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joules Apparel</title>
+    <title>NAKAMA STORE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,22 +18,23 @@
     <nav class="navbar navbar-expand-lg navbar-light bg white py-4 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
-                <img src="images/jols.png" alt="site logo">
+                <img src="images/OP background.png" alt="site logo">
             </a>
 
             <div class="order-lg-2 nav-btns">
                 <button type="button" class="btn position-relative">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">5</span>
+                    <i class="fas fa-search"></i>
                 </button>
                 <button type="button" class="btn position-relative">
                     <i class="fas fa-heart"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">2</span>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger"></span>
                 </button>
                 <button type="button" class="btn position-relative">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-danger"></span>
                 </button>
             </div>
+
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
@@ -48,7 +49,7 @@
                         <a class="nav-link text-uppercase text-dark" href="#collection">Collection</a>
                     </li>
                     <li class="nav-item px-2 py-2">
-                        <a class="nav-link text-uppercase text-dark" href="#special">Special</a>
+                        <a class="nav-link text-uppercase text-dark" href="#exclusive">Exclusive</a>
                     </li>
                     <li class="nav-item px-2 py-2">
                         <a class="nav-link text-uppercase text-dark" href="#blogs">Blogs</a>
@@ -57,7 +58,7 @@
                         <a class="nav-link text-uppercase text-dark" href="#about">About Us</a>
                     </li>
                     <li class="nav-item px-2 py-2 border-0">
-                        <a class="nav-link text-uppercase text-dark" href="#popular">Popular</a>
+                        <a class="nav-link text-uppercase text-dark" href="#beloved">Most Wanted</a>
                     </li>
                 </ul>
             </div>
@@ -70,23 +71,10 @@
     <div id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 103px;">
         <div class="container d-flex align-items-center h-100 carousel-inner">
             <div class="text-center carousel-item active">
-                <h2 class="text-capitalize text-white text-center">best price & offer</h2>
-                <h1 class="text-uppercase py-2 fw-bold text-white text-center">new arrivals</h1>
-                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+                <h2 class="text-capitalize text-black text-center" >Trending on the Grand Line</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-black text-center">Most Wanted Posters</h1>
+                <a href="#" class="btn mt-3 text-uppercase">Set Sail for the Showcase</a>
             </div>
-            <div class="text-center carousel-item">
-                <h2 class="text-capitalize text-white text-center">best collection</h2>
-                <h1 class="text-uppercase py-2 fw-bold text-white text-center">new season</h1>
-                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
-            </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
     </div>
     <!--end of header-->
 
@@ -94,24 +82,28 @@
     <section id="collection" class="py-5">
         <div class="container">
             <div class="title text-center">
-                <h2 class="position-relative d-inline-block">New Collection</h2>
+                <h2 class="position-relative d-inline-block">Ultimate Treasure Collection</h2>
             </div>
 
             <div class="row g-0">
                 <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
                     <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
-                    <button type="button" class="btn m-2 text-dark" data-filter=".best">Best Sellers</button>
-                    <button type="button" class="btn m-2 text-dark" data-filter=".feat">Featured</button>
-                    <button type="button" class="btn m-2 text-dark" data-filter=".new">New Arrival</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".most">Most Wanted</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".highlight">Highlights</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".fresh">Fresh Bounty</button>
                 </div>
 
-                <div class="collection-list mt-4 row gx-0 gy-3">
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                <div class="collection-list mt-5 row gx-0 gy-3">
+
+                     <!--1-->
+                     <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/polo1.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/MONKEY D LUFFY.png" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -119,16 +111,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Knitted Polo</p>
-                        <span class="fw-bold">$ 45.50</span>
+                        <p class="text-capitalize my-1">MONKEY D LUFFY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <!--2-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/nike.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/RORONOA ZORO.png" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -136,16 +132,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Nike Shoes</p>
-                        <span class="fw-bold">$ 70.98</span>
+                        <p class="text-capitalize my-1">RORONOA ZORO</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--3-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 fresh">
                         <div class="collection-img position-relative">
-                            <img src="images/trousers.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/NAMI.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -153,16 +153,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Trousers</p>
-                        <span class="fw-bold">$ 60.17</span>
+                        <p class="text-capitalize my-1">NAMI</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--4-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/hoodie.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/GOD USOPP.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -170,16 +174,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Hoodie</p>
-                        <span class="fw-bold">$ 45.95</span>
+                        <p class="text-capitalize my-1">GOD USOPP</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--5-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/converse.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/SANJI.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -187,16 +195,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Converse Shoes</p>
-                        <span class="fw-bold">$ 100.00</span>
+                        <p class="text-capitalize my-1">SANJI</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--6-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/sweatshirt.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/CHOPPER.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -204,16 +216,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Sweatshirt</p>
-                        <span class="fw-bold">$ 40.70</span>
+                        <p class="text-capitalize my-1">CHOPPER</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--7-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/cargo.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/NICO ROBIN.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -221,16 +237,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Cargo Pants</p>
-                        <span class="fw-bold">$ 80.25</span>
+                        <p class="text-capitalize my-1">NICO ROBIN</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--8-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/hat.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/FRANKY.png" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -238,16 +258,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Head Cap</p>
-                        <span class="fw-bold">$ 20.45</span>
+                        <p class="text-capitalize my-1">FRANKY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--9-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/jacket.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BROOK.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -255,16 +279,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Jacket</p>
-                        <span class="fw-bold">$ 30.70</span>
+                        <p class="text-capitalize my-1">BROOK</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--10-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/jacket1.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/JINBE.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -272,16 +300,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Jacket</p>
-                        <span class="fw-bold">$ 65.25</span>
+                        <p class="text-capitalize my-1">JINBE</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--11-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/shorts.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/TRAFALGAR LAW.png" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -289,16 +321,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Shorts</p>
-                        <span class="fw-bold">$ 45.90</span>
+                        <p class="text-capitalize my-1">TRAFALGAR LAW</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--12-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/denim.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BE PO.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -306,16 +342,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Denim Pants(Female)</p>
-                        <span class="fw-bold">$ 70.21</span>
+                        <p class="text-capitalize my-1">BEPO</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--13-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/complete.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/EUSTASS CAPTAIN KIDD.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -323,16 +363,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Complete Set Outfit(Female)</p>
-                        <span class="fw-bold">$ 210.45</span>
+                        <p class="text-capitalize my-1">EUSTASS "CAPTAIN" KIDD</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--14-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/messenger.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/KILLER.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -340,16 +384,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Messenger Bag</p>
-                        <span class="fw-bold">$ 31.45</span>
+                        <p class="text-capitalize my-1">KILLER</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--15-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/denimbag.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/JEWELRY BONNEY.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -357,16 +405,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Denim Messenger Bag</p>
-                        <span class="fw-bold">$ 21.80</span>
+                        <p class="text-capitalize my-1">JEWELRY BONNEY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
-                        <div class=" collection-img position-relative">
-                            <img src="images/complete1.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                    <!--16-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
+                        <div class="collection-img position-relative">
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BUGGY.png" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -374,16 +426,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Upper & Lower Outfit(Male)</p>
-                        <span class="fw-bold">$ 25.90</span>
+                        <p class="text-capitalize my-1">BUGGY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--17-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/streetjacket.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/CAVENDISH.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -391,16 +447,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Stree-Style Jacket</p>
-                        <span class="fw-bold">$ 75.56</span>
+                        <p class="text-capitalize my-1">CAVENDISH</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--18-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/cargo1.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BARTOLOMEO.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -408,16 +468,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Cargo Pants(Female)</p>
-                        <span class="fw-bold">$ 75.90</span>
+                        <p class="text-capitalize my-1">BARTOLOMEO</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--19-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/jacket2.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/PORTGAS D ACE.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -425,16 +489,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Gradient Jacket</p>
-                        <span class="fw-bold">$ 60.89</span>
+                        <p class="text-capitalize my-1">PORTGAS D ACE</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--20-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/tote.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/SABO.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -442,16 +510,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Tote Bag</p>
-                        <span class="fw-bold">$ 15.89</span>
+                        <p class="text-capitalize my-1">SABO</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--21-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/crop.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/MONKEY D DRAGON.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -459,16 +531,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Croptop Jacket</p>
-                        <span class="fw-bold">$ 45.78</span>
+                        <p class="text-capitalize my-1">MONKEY D DRAGON</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--22-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/shoes.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/EDWARD NEWGATE.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -476,16 +552,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Fashion Shoes(Female)</p>
-                        <span class="fw-bold">$ 85.12</span>
+                        <p class="text-capitalize my-1">EDWARD NEWGATE</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--23-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/chunky.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/GOLD ROGER.png" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -493,16 +573,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Chunky Shoes(Female)</p>
-                        <span class="fw-bold">$ 45.67</span>
+                        <p class="text-capitalize my-1">GOLD ROGER</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--24-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/baggy.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/MARCO THE PHOENIX.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -510,16 +594,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Baggy Trousers(Male)</p>
-                        <span class="fw-bold">$ 41.55</span>
+                        <p class="text-capitalize my-1">MARCO THE PHOENIX</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--25-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/turtle.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BON CLAY.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -527,16 +615,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Turtle Nexk</p>
-                        <span class="fw-bold">$ 39.89</span>
+                        <p class="text-capitalize my-1">BON CLAY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--26-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/sandals.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/SILVERS RAYLEIGH.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -544,16 +636,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Sandals(Male)</p>
-                        <span class="fw-bold">$ 45.65</span>
+                        <p class="text-capitalize my-1">SILVERS RAYLEIGH</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--27-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/sandal.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/X DRAKE.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -561,16 +657,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Sandals(Female)</p>
-                        <span class="fw-bold">$ 20.45</span>
+                        <p class="text-capitalize my-1">X DRAKE</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--28-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/shades.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/SHANKS.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -578,16 +678,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Shades</p>
-                        <span class="fw-bold">$ 19.90</span>
+                        <p class="text-capitalize my-1">SHAMKS</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--29-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/watch.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/DRACULE MIHAWK.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -595,16 +699,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Watch</p>
-                        <span class="fw-bold">$ 150.90</span>
+                        <p class="text-capitalize my-1">DRACULE MIHAWK</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--30-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/floral.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/MARSHALL D TEACH.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -612,16 +720,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Floral Dress</p>
-                        <span class="fw-bold">$ 35.15</span>
+                        <p class="text-capitalize my-1">MARSHALL D TEACH</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--31-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/shorts1.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/PERONA.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -629,16 +741,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Running Shorts</p>
-                        <span class="fw-bold">$ 39.45</span>
+                        <p class="text-capitalize my-1">PERONA</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--32-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/uni.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/KAIDO.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -646,16 +762,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Unisex 2 in 1</p>
-                        <span class="fw-bold">$ 30.60</span>
+                        <p class="text-capitalize my-1">MONKEY D LUFFY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">KAIDO</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--33-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/trench.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/DONQUIXOTE DOFLAMINGO.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -663,16 +783,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Trench Coat</p>
-                        <span class="fw-bold">$ 80.20</span>
+                        <p class="text-capitalize my-1">DONQUIXOTE DOFLAMINGO</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--34-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/baggy1.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/CHARLOTTE LINLIN.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -680,16 +804,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Baggy Pants(Female)</p>
-                        <span class="fw-bold">$ 59.80</span>
+                        <p class="text-capitalize my-1">CHARLOTTE LINLIN</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--35-->
+                 <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/neck.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/CHARLOTTE KATAKURI.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -697,16 +825,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Necklace</p>
-                        <span class="fw-bold">$ 18.45</span>
+                        <p class="text-capitalize my-1">CHARLOTTE KATAKURI</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--36-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/bucket.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/CARIBOU.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -714,16 +846,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Bucket Hat</p>
-                        <span class="fw-bold">$ 21.43</span>
+                        <p class="text-capitalize my-1">CARIBOU</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--37-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/trou.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/CAPTAIN KURO.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -731,16 +867,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Trousers</p>
-                        <span class="fw-bold">$ 65.45</span>
+                        <p class="text-capitalize my-1">CAPTAIN KURO</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <!--38-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/joggers.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BOA HANCOCK.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -748,16 +888,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Jogger Pants</p>
-                        <span class="fw-bold">$ 80.43</span>
+                        <p class="text-capitalize my-1">BOA HANCOCK</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <!--39-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/formal.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BELLAMY.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -765,16 +909,20 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Formal Shoes</p>
-                        <span class="fw-bold">$ 98.00</span>
+                        <p class="text-capitalize my-1">BELLAMY</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <!--40-->
+                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 most">
                         <div class="collection-img position-relative">
-                            <img src="images/sleeves.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
+                            <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                            <img src="images/BASIL HAWKINS.jpg" class="w-100">
+                            </div>
+                            </div>
+                            </div>
                         <div class="rating mt-3">
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
@@ -782,76 +930,9 @@
                             <span class="text"><i class="fas fa-star"></i></span>
                             <span class="text"><i class="fas fa-star"></i></span>
                         </div>
-                        <p class="text-capitalize my-1">Polo Sleeves</p>
-                        <span class="fw-bold">$ 65.67</span>
-                    </div>
-
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class="collection-img position-relative">
-                            <img src="images/sweat.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
-                        <div class="rating mt-3">
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="text-capitalize my-1">Knitted Sweat Shirt</p>
-                        <span class="fw-bold">$ 78.12</span>
-                    </div>
-
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 new">
-                        <div class="collection-img position-relative">
-                            <img src="images/vans.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
-                        <div class="rating mt-3">
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="text-capitalize my-1">Vans Shoes</p>
-                        <span class="fw-bold">$ 90.10</span>
-                    </div>
-
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 best">
-                        <div class="collection-img position-relative">
-                            <img src="images/cargo2.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
-                        <div class="rating mt-3">
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="text-capitalize my-1">Cargo Pants(Male)</p>
-                        <span class="fw-bold">$ 20.45</span>
-                    </div>
-
-                    <div class="text-center col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class="collection-img position-relative">
-                            <img src="images/bonnet.jpg" class="w-100">
-                            <span
-                                class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
-                        </div>
-                        <div class="rating mt-3">
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                            <span class="text"><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="text-capitalize my-1">Bonnet Hat</p>
-                        <span class="fw-bold">$ 20.60</span>
+                        <p class="text-capitalize my-1">BASIL HAWKINS</p>
+                        <span class="fw-bold d-block">₱250.00</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
 
                 </div>
@@ -860,137 +941,89 @@
     </section>
     <!-- end ofcollection-->
 
-    <!--special products-->
-    <section id="special" class="py-5">
+    <!--exclusive-->
+    <section id="exclusive" class="py-5">
         <div class="container">
             <div class="title text-center py-5">
-                <h2 class="position-relative d-inline-block">Special Selection</h2>
+                <h2 class="position-relative d-inline-block">Crew's Exclusive</h2>
             </div>
 
-            <div class="special-list row g-0">
+            <div class="exclusive-list row g-0">
                 <div class="col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="special-img position-relative overflow-hidden">
-                        <img src="images/special1.jpg" class="w-100">
+                    <div class="exclusive-img position-relative overflow-hidden">
+                        <img src="images/2.png" class="w-100">
                         <span class="position-absolute d-flex align-items-center justify-content-center text fs-4">
-                            <i class="fas fa-heart"></i>
                         </span>
                     </div>
                     <div class="text-center">
-                        <p class="text-capitalize mt-3 mb-1">3 Complete Outift(Male)</p>
-                        <span class="fw-bold d-block">$ 450.50</span>
+                        <p class="text-capitalize mt-3 mb-1">LUFFY, ACE, SABO</p>
+                        <span class="fw-bold d-block">₱650.00</span>
                         <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="special-img position-relative overflow-hidden">
-                        <img src="images/special2.jpg" class="w-100">
+                    <div class="exclusive-img position-relative overflow-hidden">
+                        <img src="images/3.png" class="w-100">
                         <span class="position-absolute d-flex align-items-center justify-content-center text fs-4">
-                            <i class="fas fa-heart"></i>
                         </span>
                     </div>
                     <div class="text-center">
-                        <p class="text-capitalize mt-3 mb-1">Complete Outfit(Male)</p>
-                        <span class="fw-bold d-block">$ 300.50</span>
+                        <p class="text-capitalize mt-3 mb-1">SANJI, LUFFY, ZORO</p>
+                        <span class="fw-bold d-block">₱650.00</span>
                         <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="special-img position-relative overflow-hidden">
-                        <img src="images/special3.jpg" class="w-100">
+                    <div class="exclusive-img position-relative overflow-hidden">
+                        <img src="images/4.png" class="w-100">
                         <span class="position-absolute d-flex align-items-center justify-content-center text fs-4">
-                            <i class="fas fa-heart"></i>
                         </span>
                     </div>
                     <div class="text-center">
-                        <p class="text-capitalize mt-3 mb-1">Complete Outfit(Male)</p>
-                        <span class="fw-bold d-block">$ 650.35</span>
+                        <p class="text-capitalize mt-3 mb-1">BUGGY, CAVENDISH, BARTOLOMEO</p>
+                        <span class="fw-bold d-block">₱650.00</span>
                         <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="special-img position-relative overflow-hidden">
-                        <img src="images/special4.jpg" class="w-100">
+                    <div class="exclusive-img position-relative overflow-hidden">
+                        <img src="images/5.png" class="w-100">
                         <span class="position-absolute d-flex align-items-center justify-content-center text fs-4">
-                            <i class="fas fa-heart"></i>
                         </span>
                     </div>
                     <div class="text-center">
-                        <p class="text-capitalize mt-3 mb-1">Complete Outifit(Female)</p>
-                        <span class="fw-bold d-block">$ 500.39</span>
-                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="special-img position-relative overflow-hidden">
-                        <img src="images/special5.jpg" class="w-100">
-                        <span class="position-absolute d-flex align-items-center justify-content-center text fs-4">
-                            <i class="fas fa-heart"></i>
-                        </span>
-                    </div>
-                    <div class="text-center">
-                        <p class="text-capitalize mt-3 mb-1">Complete Outift(Female)</p>
-                        <span class="fw-bold d-block">$ 670.34</span>
-                        <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="special-img position-relative overflow-hidden">
-                        <img src="images/special6.jpg" class="w-100">
-                        <span class="position-absolute d-flex align-items-center justify-content-center text fs-4">
-                            <i class="fas fa-heart"></i>
-                        </span>
-                    </div>
-                    <div class="text-center">
-                        <p class="text-capitalize mt-3 mb-1">Complete Outfit(Female)</p>
-                        <span class="fw-bold d-block">$ 450.50</span>
+                        <p class="text-capitalize mt-3 mb-1">KIDD, LUFFY, LAW</p>
+                        <span class="fw-bold d-block">₱650.00</span>
                         <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--end special products-->
+    <!--exclusive-->
 
-    <!--blogs-->
-    <section id="offers" class="py-5">
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-center justify-content-lg-start text-lg-start">
-                <div class="offers-content">
-                    <span class="text-white">Discount Up To 40%</span>
-                    <h2 class="mt-2 mb-4 text-white">Grand Sale Offer!</h2>
-                    <a href="#" class="btn">Buy Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--end of blogs-->
-
-    <!--blogs-->
+    <!--chronicles-->
     <section id="blogs" class="py-5">
         <div class="container">
             <div class="title text-center py-5">
-                <h2 class="position-relative d-inline-block">Our Latest Blog</h2>
+                <h2 class="position-relative d-inline-block">Log Pose Chronicles</h2>
             </div>
 
             <div class="row g-3">
                 <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
                     <img src="images/blog.jpg" alt="">
                     <div class="card-body px-0">
-                        <h4 class="card-title">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <h4 class="card-title text-center">
+                            Grand Chronicles
                         </h4>
-                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Doloremque
-                            obcaecati sint provident earum, dicta excepturi placeat quaerat debitis illo, sequi minima.
-                            Ipsa, iste placeat corporis fugit et exercitationem nihil. Perferendis!</p>
+                        <p class="card-text mt-3 text-muted">Dive into the Grand Line with our blog, where each entry unveils the untold stories behind the coveted wanted posters 
+                            we offer.Explore the rich lore, unique designs, and exclusive insights that make our collection a must-have for every One Piece enthusiast.</p>
                         <p class="card-text">
                             <small class="fw-bold">
-                                <span class="text-muted">Author:</span> Julius Parado
+                                <span class="text-muted">Author:</span> Elsie Nakama
                             </small>
                         </p>
                         <a href="#" class="btn">Read More</a>
@@ -1000,16 +1033,15 @@
                 <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
                     <img src="images/blog1.jpg" alt="">
                     <div class="card-body px-0">
-                        <h4 class="card-title">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <h4 class="card-title text-center">
+                            Bounty Hunter's Journal
                         </h4>
-                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Doloremque
-                            obcaecati sint provident earum, dicta excepturi placeat quaerat debitis illo, sequi minima.
-                            Ipsa, iste placeat corporis fugit et exercitationem nihil. Perferendis!</p>
+                        <p class="card-text mt-3 text-muted">Embark on a literary journey through our blog, where we share tales of the high seas, featuring the very pirates 
+                            gracing our wanted posters. Discover the inspiration behind each design and join the hunt as we delve into the intricate details that make these 
+                            posters true treasures.</p>
                         <p class="card-text">
                             <small class="fw-bold">
-                                <span class="text-muted">Author:</span> Julius Parado
+                                <span class="text-muted">Author:</span> Elsie Nakama
                             </small>
                         </p>
                         <a href="#" class="btn">Read More</a>
@@ -1019,16 +1051,15 @@
                 <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
                     <img src="images/blog3.jpg" alt="">
                     <div class="card-body px-0">
-                        <h4 class="card-title">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <h4 class="card-title text-center">
+                            Captain's Log: Collector's Edition
                         </h4>
-                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Doloremque
-                            obcaecati sint provident earum, dicta excepturi placeat quaerat debitis illo, sequi minima.
-                            Ipsa, iste placeat corporis fugit et exercitationem nihil. Perferendis!</p>
+                        <p class="card-text mt-3 text-muted">Join us in the Captain's Log, a blog dedicated to the art of collecting One Piece wanted posters. Uncover expert tips, 
+                            behind-the-scenes stories,and firsthand accounts from fellow collectors, as we navigate the vast ocean of memorabilia and celebrate the thrill of 
+                            building your own prized bounty collection.</p>
                         <p class="card-text">
                             <small class="fw-bold">
-                                <span class="text-muted">Author:</span> Julius Parado
+                                <span class="text-muted">Author:</span> Elsie Nakama
                             </small>
                         </p>
                         <a href="#" class="btn">Read More</a>
@@ -1038,7 +1069,7 @@
             </div>
         </div>
     </section>
-    <!--end of blogs-->
+    <!--end of chronicles-->
 
     <!--about us-->
     <section id="about" class="py-5">
@@ -1048,123 +1079,155 @@
                     <div class="title pt-3 pb-5">
                         <h2 class="position-relative d-inline-block ms-4">About Us</h2>
                     </div>
-                    <p class="lead text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste exercitationem alias
-                        magnam ipsum mollitia a dolorem, unde vel minima dignissimos voluptatum, similique animi quas
-                        est temporibus, blanditiis beatae cum inventore?</p>
+                    <p class="lead text-muted">Ahoy, fellow adventurers! Welcome to Nakama Store, where the spirit of One Piece comes to life in every wanted poster we offer. 
+                        Our collection is a treasure trove of meticulously designed, limited-edition artworks that encapsulate the essence of the most notorious pirates sailing 
+                        the Grand Line. Each piece tells a riveting tale of high-seas exploits, devil fruit powers, and epic journeys, making them a must-have for enthusiasts and 
+                        collectors alike. At Nakama Store, we don't just sell posters; we curate experiences, allowing you to bring a piece of the One Piece world into your space. 
+                        Embark on this exhilarating journey with us, as we celebrate the boundless spirit of adventure and camaraderie that defines the world of One Piece.</p>
                 </div>
                 <div class="col-lg-6 order-lg-0">
-                    <img src="images/about.jpg" alt="" class="img-fluid">
+                    <img src="images/OP background.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
     <!--end of about us-->
 
-    <!--popular-->
-    <section id="popular" class="py-5">
+    <!--beloved-->
+    <section id="beloved" class="py-5">
         <div class="container">
             <div class="title text-center pt-3 pb-5">
                 <h2 class="position-relative d-inline-block ms-4">
-                    Popular Of This Month
+                    Month's Beloved Bounties
                 </h2>
             </div>
 
             <div class="row">
-                <div class="col-md-6 col-lg-4 row g-3">
-                    <h3 class="fs-5">Top Rated</h3>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/rated1.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Blue Shirt</p>
-                            <span>$ 30.00</span>
+                <div class=" text-center col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Crew's Choice</h3>
+
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/MONKEY D LUFFY.png" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">MONKEY D LUFFY</p>
+                            <span class="centered-span fw-bold d-block">₱250.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/popular.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Sandals</p>
-                            <span>$ 35.65</span>
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/NAMI.jpg" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">NAMI</p>
+                            <span class="centered-span fw-bold d-block">₱250.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/popular1.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Trousers(Men)</p>
-                            <span>$ 50.00</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 row g-3">
-                    <h3 class="fs-5">Best Seller</h3>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/best1.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Green Hoodie</p>
-                            <span>$ 45.15</span>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/best2.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Trousers(Female)</p>
-                            <span>$ 50.80</span>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/best3.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Cop Top</p>
-                            <span>$ 50.00</span>
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/SABO.jpg" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">SABO</p>
+                            <span class="centered-span fw-bold d-block">₱250.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 row g-3">
-                    <h3 class="fs-5">On Sale</h3>
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/on1.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Sneakers</p>
-                            <span>$ 67.85</span>
+                <div class="text-center col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Captain's Pick</h3>
+
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/PORTGAS D ACE.jpg" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">PORTGAS D ACE</p>
+                            <span class="centered-span fw-bold d-block">₱250.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/on2.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Black Watch</p>
-                            <span>$ 99.99</span>
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/MONKEY D DRAGON.jpg" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">MONKEY D DRAGON</p>
+                            <span class="centered-span fw-bold d-block">₱250.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/on3.jpg" alt="" class="img-fluid pe-3 w-25">
-                        <div>
-                            <p class="mb-0">Bag</p>
-                            <span>$ 40.90</span>
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/GOLD ROGER.png" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">GOLD ROGER</p>
+                            <span class="centered-span fw-bold d-block">₱250.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Grand Discount Voyage</h3>
+
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/BARTOLOMEO.jpg" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">BARTOLOMEO</p>
+                            <span class="centered-span fw-bold d-block">₱200.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/CAVENDISH.jpg" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">CAVENDISH</p>
+                            <span class="centered-span fw-bold d-block">₱200.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="beloved-img position-relative text-center">
+                        <div class="card border-0 bg-light mb-2">
+                            <div class="card-body">
+                                <img src="images/BUGGY.png" alt="" class="img-fluid pe-3 w-25">
+                            </div>
+                            <p class="mb-0">BUGGY</p>
+                            <span class="centered-span fw-bold d-block">₱200.00</span>
+                            <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--end of popular-->
-    <!--newsLetter-->
-    <section id="newsletter" class="py-5">
+    <!--end of beloved-->
+
+    <!--dispatch-->
+    <section id="dispatch" class="py-5">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="title text-center pt-3 pb-5">
-                    <h2 class="position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                    <h2 class="position-relative d-inline-block ms-4">Jolly Roger Dispatch</h2>
                 </div>
 
-                <p class="text-center text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-                    rerum ipsa impedit vel eum earum ex rem.</p>
+                <p class="text-center text-muted">Join the Jolly Roger Dispatch and stay one step ahead in the One Piece world! Subscribe to our newsletter for exclusive updates 
+                    on new wanted posters, crew highlights, and secret treasures. Become part of our Nakama community, where the adventure continues beyond the seas!</p>
                 <div class="input-group mb-3 mt3">
                     <input type="text" class="form-control" placeholder="Enter Your Email ...">
                     <button class="btn btn-primary" type="submit">Subscribe
@@ -1173,17 +1236,16 @@
             </div>
         </div>
     </section>
-    <!--end of newsLetter-->
+    <!--dispatch-->
 
     <!--footer-->
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 fw-bold text-start">Joules Apparel</h5>
-                    <p class="fw-light text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                        inventore error
-                        natus doloribus.
+                    <h5 class="text-uppercase mb-4 fw-bold text-start">NAKAMA STORE</h5>
+                    <p class="fw-light text-start">Welcome to Nakama Store, your ultimate destination for One Piece wanted posters, 
+                        where each purchase unravels a tale of adventure, loyalty, and the thrill of collecting treasures from the vast seas of the Grand Line.
                     </p>
                 </div>
 
@@ -1214,7 +1276,7 @@
                             <i class="fas fa-map-marked-alt"></i>
                         </span>
                         <span class="fw-light text-start">
-                            Libertad Butuan City Agusan del Norte
+                            Katugasan, Cabadbaran City Agusan del Norte
                         </span>
                     </div>
 
@@ -1223,7 +1285,7 @@
                             <i class="fas fa-envelope"></i>
                         </span>
                         <span class="fw-light text-start">
-                            joules.apparel@gmail.com
+                            nakamastore@gmail.com
                         </span>
                     </div>
 
@@ -1232,7 +1294,7 @@
                             <i class="fas fa-phone-alt"></i>
                         </span>
                         <span class="fw-light text-start">
-                            09452180360
+                            09703924018
                         </span>
                     </div>
                 </div>

@@ -12,27 +12,27 @@ body {
 }
 
 .bg-primary {
-    background-color: pink;
+    background-color: rgb(255, 7, 7);
 }
 
 .btn:not(.nav-btns button) {
-    border: 1px solid rgb(85, 85, 85);
+    border: 1px solid rgb(136, 83, 83);
     border-radius: 25px;
     background-color: #fff;
-    color: rgb(85, 85, 85);
+    color: rgb(180, 65, 65);
     padding: 10px 28px;
     margin: auto;
 }
 
 .btn:not(.nav-btns button):hover {
-    background-color: #ff6347;
+    background-color: #e00d0d;
     color: #fff;
-    border-color: #ff6347;
+    border-color: #fa2e0a;
 }
 
 /*text color*/
 .text {
-    color: #ff6347 !important;
+    color: #e70d0df6 !important;
 }
 
 .navbar {
@@ -41,7 +41,7 @@ body {
 }
 
 .nav-link:hover {
-    color: red !important;
+    color: rgb(184, 27, 27) !important;
 }
 
 .nav-item {
@@ -50,38 +50,15 @@ body {
 
 /*header*/
 #header {
-    background: url(images/shopper.jpg)top/cover no-repeat;
-}
-
-.carousel-inner h1 {
-    font-size: 60px;
-}
-
-.carousel-item .btn {
-    border-color: #fff !important;
-}
-
-.carousel-item .btn:hover {
-    border-color: #ff6347 !important;
-}
-
-/*header*/
-.title h2::before {
-    position: absolute;
-    content: "";
-    width: 4px;
-    height: 50px;
-    background-color: #ff6347;
-    left: -20px;
-    top: 50%;
-    transform: translateY(-50%);
+    background: url(images/one-piece-going-merry-one-piece-sunny-one-piece-thousand-sunny-hd-wallpaper-preview.jpg)top/cover no-repeat;
+    
 }
 
 /*collection*/
 button.active-filter-btn {
-    background-color: #ff6347 !important;
+    background-color: #ff2802 !important;
     color: #fff !important;
-    border-color: #ff6347 !important;
+    border-color: #fc2a05 !important;
 }
 
 .filter-button-group .btn:hover {
@@ -97,28 +74,67 @@ button.active-filter-btn {
     border-radius: 50%;
 }
 
-/*special*/
-.special-img span {
+.collection-list .btn {
+    padding: 8px 20px !important;
+}
+
+.collection-img img {
+    transition: all 0.3s ease;
+}
+
+.collection-img:hover img {
+    transform: scale(1.2);
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(7, 7, 7, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(240, 5, 5, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(238, 7, 7, 0.75);
+    transition: 0.5s;
+}
+
+/*exclusive*/
+button.active-filter-btn {
+    background-color: #dd1212 !important;
+    color: #fff !important;
+    border-color: #da0808 !important;
+}
+
+.filter-button-group .btn:hover {
+    color: #fff !important;
+
+}
+
+.exclusive-img span {
+    top: 200px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+/*exclusive*/
+.exclusive-img span {
     top: 20px;
     right: 20px;
 
 }
 
-.special-list .btn {
+.exclusive-list .btn {
     padding: 8px 20px !important;
 }
 
-.special-img img {
+.exclusive-img img {
     transition: all 0.3s ease;
 }
 
-.special-img:hover img {
+.exclusive-img:hover img {
     transform: scale(1.2);
 }
 
 /*offers*/
 #offers {
-    background: url(images/shoperrr.jpg) center/cover no-repeat;
+    background: url(images/background\ OP\ section.jpg) center/cover no-repeat;
 }
 
 #offers .row {
@@ -141,34 +157,36 @@ button.active-filter-btn {
     background-color: rgba(0);
 }
 
-/*newsletter*/
-#newsletter {
+/*dispatch*/
+#dispatch {
     background-color: rgba(179, 179, 179, 0.05);
 }
 
-#newsletter p {
+#dispatch p {
     max-width: 600px;
 }
 
-#newsletter .input-group {
+#dispatch .input-group {
     max-width: 500px;
 }
 
-#newsletter .form-control {
+#dispatch .form-control {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#newsletter .btn {
-    background-color: #ff6347;
+#dispatch .btn {
+    background-color: #ff2600;
     color: #fff;
-    border-color: #ff6347;
+    border-color: #f52a06;
 }
 
-#newsletter .btn:hover {
+#dispatch .btn:hover {
     background-color: #000;
     border-color: #000;
 }
+
+
 
 /*FOOTER*/
 footer a {
@@ -176,7 +194,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ff6347 !important;
+    color: #fd2d08 !important;
 }
 
 @media(min-width:992px) {
